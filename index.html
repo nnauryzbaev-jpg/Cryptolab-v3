@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title data-i18n="site_title">CryptoLab</title>
+    <link rel="icon" href="/assets/img/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/main.css?v=fix3">
+    <link rel="stylesheet" href="/assets/css/labs.css?v=fix3">
+    <link rel="stylesheet" href="/assets/css/lab-shell.css?v=fix6">
+    <link rel="stylesheet" id="theme-stylesheet" href="/assets/css/themes/ancient-theme.css?v=fix6">
+</head>
+<body>
+    <header class="topbar">
+        <div class="brand">
+            <h1 class="brand-title">CryptoLab</h1>
+            <p class="brand-subtitle" data-i18n="site_subtitle">Криптология бойынша оқу-зертханалық платформа</p>
+        </div>
+        <div class="toolbar">
+            <label class="lang-label" data-i18n="language">Тіл</label>
+            <select id="lang-switch" class="lang-switch">
+                <option value="kk">Қазақша</option>
+                <option value="ru">Русский</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+    </header>
+
+    <nav id="main-menu" class="main-menu">
+        <button class="menu-btn is-active" data-route="/home">🏠 Басты бет</button>
+        <button class="menu-btn" data-route="/classical">📜 Классикалық</button>
+        <button class="menu-btn" data-route="/modern">🔐 Заманауи</button>
+        <button class="menu-btn" data-route="/hash"># Хэш</button>
+        <button class="menu-btn" data-route="/protocols">🌐 Протоколдар</button>
+        <button class="menu-btn" data-route="/post-quantum">⚛️ Посткванттық</button>
+        <button class="menu-btn" data-route="/labs">🔬 Зертхана</button>
+        <button class="menu-btn" data-route="/tools">🛠️ Құралдар</button>
+        <button class="menu-btn" data-route="/drafts">📝 Бета версиялар</button>
+    </nav>
+
+    <main id="app" class="app-shell">
+        <div id="cipher-list"></div>
+        <div id="cipher-view"></div>
+        <div id="labs-list"></div>
+        <div id="lab-view"></div>
+        <div id="lab-runner"></div>
+        <div id="collection-list"></div>
+        <div id="collection-view"></div>
+        <div id="drafts-list"></div>
+        <div id="draft-view"></div>
+        <div id="draft-sandbox"></div>
+    </main>
+
+    <script src="/assets/js/loader.js?v=fix3"></script>
+    <script src="/assets/js/registry.js?v=fix3"></script>
+    <script src="/assets/js/i18n.js?v=fix3"></script>
+    <script src="/assets/js/utils.js?v=fix3"></script>
+    <script src="/assets/js/router.js?v=fix3"></script>
+    <script src="/assets/js/renderer.js?v=fix3"></script>
+    <script src="/assets/js/tool-modules.js?v=fix3"></script>
+    <script src="/assets/js/visualizer.js?v=fix3"></script>
+    <script src="/assets/js/theme-loader.js?v=fix6"></script>
+    <script src="/assets/js/cryptolab.js?v=fix3"></script>
+    <script src="/assets/js/app.js?v=fix3"></script>
+</body>
+</html>

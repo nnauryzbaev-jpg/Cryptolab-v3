@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "categories": {
+    "classical": {
+      "title": "Классикалық шифрлер",
+      "theme": "classical-theme",
+      "items": [
+        "caesar",
+        "enigma",
+        "hill"
+      ]
+    },
+    "modern_symmetric": {
+      "title": "Симметриялық шифрлер",
+      "theme": "digital-theme",
+      "items": [
+        "aes",
+        "kuznechik",
+        "magma",
+        "sm4"
+      ]
+    },
+    "protocols": {
+      "title": "Протоколдар",
+      "theme": "network-theme",
+      "items": [
+        "tls",
+        "ipsec"
+      ]
+    }
+  }
+}
